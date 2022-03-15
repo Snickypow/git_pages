@@ -1,0 +1,157 @@
+﻿<html>
+	<head>
+		<title>APR-PT</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Fonte encontrada na net -->
+		<link rel="stylesheet" type="text/css" href="css/font3tipster.css" />
+		<!-- página inicial mais smooth -->
+		<link href="css/font2slider.css" rel="stylesheet">
+		<!-- Fontes responsivas -->
+		<link rel="stylesheet" href="css/font1.min.css">
+		<link href="estilo.css" rel="stylesheet" media="screen">	
+		<link href="responder.css" rel="stylesheet" media="screen">		
+	</head>
+
+	<body>
+	
+		<section id="header_area">
+			<div class="wrapper header">
+				<div class="clearfix header_top">
+					<div class="clearfix logo floatleft">
+						<a href=""><h1><span>Animals for</span> Rescue Portugal</h1></a>
+					</div>
+					<div class="clearfix logo floatright">
+						<form>
+
+							<h></h><a style="color: #ffffff;"href="criar.html"><u>     </u></a>
+						<a style="color: #ffc402;" href="entrar1.html"><u>Login</u></a>
+							<h></h><a style="color: #ffffff;"href="criar1.html"><u>Create Account</u></a>
+						</form>
+					</div>
+				</div>
+				<!-- Redirecionar páginas -->
+				<div class="header_bottom">
+					<nav>
+						<ul id="nav">
+							<li><a href="index.html">Starting page</a></li>
+							<li><a href="adocao.html">Adopt</a></li>
+							<li><a href="vets.html">Veterinarians</a></li>
+							<li><a href="informgeral.html">Informations</a></li>
+							<li><a href="contatos.html">Contact us</a></li>
+							<li id="dropdown"><a href="">Language:</a>
+								<ul>
+									<li><a href="index.html">Português</a></li>
+									<li><a href="index1.html">Inglês</a></li>
+								
+							
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<!--Fotos / transições -->
+		<section id="content_area">
+			<div class="clearfix wrapper main_content_area">
+			
+				<div class="clearfix main_content floatleft">
+				
+					<div class="clearfix slider">
+						<ul class="pgwSlider">
+							<li><img src="images/thumbs/cachorro.jpg" alt="Alentejo, Elvas" data-description="Aqueduto da Moreira" data-large-src="images/slides/cachorro.jpg"/></li>
+							<li><img src="images/thumbs/gato.jpeg" alt="Viana do Castelo" data-large-src="images/slides/gato.jpeg" data-description="Monumento do sagrado coração de Jesus"/></li>
+							<li>
+								<img src="images/thumbs/arara.jpeg" alt="Algarve" data-large-src="images/slides/arara.jpg" data-description="Faro">
+							</li>
+
+
+						</ul>
+					</div>
+					<!--Feed de últimas notícias -->
+					<div class="clearfix content">
+						<div class="content_title"><h2>Adoptions made recently</h2></div>
+						
+						<div class="clearfix single_content">
+							<div class="clearfix post_date floatleft">
+								<div class="date">
+									<h3>Date</h3>
+									<p>month</p>
+								</div>
+							</div>
+							<div class="clearfix post_detail">
+								<h2><a href="">Thanks for helping to adopt the Cookie </a></h2>
+								<div class="clearfix post-meta">
+									<p><span><i class="fa fa-user"></i> User</span> 
+									<span><i class="fa fa-clock-o"></i> 20 Jan 2022</span> <span><i class="fa fa-comment"></i> 41 comments</span></p>
+								</div>
+								<div class="clearfix post_excerpt">
+									<img src="images/thumb.jpg" alt=""/>
+									<p>-------- </p>
+								</div>
+								<a href="">Are we going to try to adopt?</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="clearfix sidebar_container floatright">
+				
+					<div class="clearfix sidebar">
+						<div class="clearfix single_sidebar">
+							<div class="popular_post">
+								<div class="sidebar_title"><h2>recent adoptions</h2></div>
+								<ul>
+									<li><a href="">Rufus </a></li>
+									<li><a href="">Pantufas </a></li>
+									<li><a href="">Tyson </a></li>
+								</ul>
+							</div>
+							</div>
+						<div class="clearfix single_sidebar category_items">
+							<h2>Recent Topics</h2>
+							<ul>
+								<li class="cat-item"><a href="">Adoption</a>(1)</li>
+								<li class="cat-item"><a href="">Veterinarians</a>(12)</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<section id="footer_top_area">
+			<div class="clearfix wrapper footer_top">
+				<div class="clearfix footer_top_container">
+					<div class="clearfix single_footer_top floatleft">
+						<h2>On Twitter</h2>
+						<p>------------------ <a href="">a real show</a>. This site helped me to adopt my pet that I have today</p>
+					</div>
+					<div class="clearfix single_footer_top floatleft">
+						<h2>About us</h2>
+						<p>We are two. a black and a real man <a href="">Nóis é trabaiadô</a></p>
+					</div>
+					<div class="clearfix single_footer_top floatleft">
+						<h2>Useful links</h2>
+						<ul>
+							<li><a href="youtube.com">youtube.com</a></li>
+							<li><a href="twitter.com">twitter.com</a></li>
+							<li><a href="github.com">github.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+		
+		</script>
+	
+		<script src="js/pgwslider.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.pgwSlider').pgwSlider({
+					
+					intervalDuration: 5000
+				});
+			});
+		</script>
+	</body>
+</html>

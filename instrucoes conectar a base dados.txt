@@ -1,0 +1,3 @@
+abrir http://localhost e abrir o phpmyadmin
+criar base de dados contas importar
+e executar http://localhost/PAP-0.3

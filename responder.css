@@ -1,0 +1,71 @@
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.wrapper {
+		width: 712px;
+		padding: 48px 28px 60px;
+	}
+	#selectnav1{display:none;}
+	#nav{display:block;}
+.header_bottom ul li a {
+  font-size: 10px;
+  padding: 5px 13px;
+}
+.pgwSlider .ps-current span {
+  background: url("images/slider_arrow_tab.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}	
+.main_content {
+  margin-right: 0px;
+  width: 100%;
+  float:none !important;
+}
+.sidebar_container {
+  float: none;
+  margin: 25px auto 0px;
+}
+.footer_top_container {
+  margin-left: -10px;
+}
+.single_footer_top {
+  margin-left: 10px;
+  width: 230px;
+}
+
+/*  single page style */	
+.more_themes_container {
+  margin-left: -25px;
+}
+.single_more_themes {
+margin-left: 25px;
+}
+
+/* work archieve page style */
+.single_work_container {
+  margin-left: -35px;
+}
+.single_work {
+  margin-left: 35px;
+  margin-bottom:35px;
+}
+.work_pagination .newer, .work_pagination .older {
+
+  margin-left: 15px;
+}
+/* work single page style */
+
+.work_single_page_feature img {
+  width: 100%;
+}
+
+	
+}
+
+
